@@ -25,7 +25,7 @@
 #include "IControl.h"
 //#include <ESP8266WiFi.h>
 #include <PID_v1.h>
-#include "PID_AutoTune.h"
+#include "PID_Autotune.h"
 #include "PidControl.h"
 
 enum PidAutotuneStatus { Init=0, Stabilization=1, Tuning=2, Done=3};

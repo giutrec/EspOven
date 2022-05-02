@@ -169,8 +169,8 @@ void setup()
   conf=new Configuration();
   if (!conf->Load()) {
     // Default configuration if flash memory is uninitialised
-    conf->enable1=false;    // chamber heater and probe present
-    conf->enable2=true;     // stone heater and probe present
+    conf->enable1=true;    // chamber heater and probe present
+    conf->enable2=false;     // stone heater and probe present
     conf->kp1=100;          // PID KP constant for chamber heater control
     conf->ki1=5;            // PID KI constant for chamber heater control
     conf->kd1=1;            // PID KD constant for chamber heater control
